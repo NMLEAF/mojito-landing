@@ -2,7 +2,7 @@ import gsap from "gsap";
 import { SplitText } from "gsap/all";
 import { useGSAP } from "@gsap/react";
 
-const About = () => {
+const Abouts = () => {
   useGSAP(() => {
     const titleSplit = SplitText.create("#about h2", {
       type: "words",
@@ -97,4 +97,4 @@ const About = () => {
     </div>
   );
 };
-export default About;
+export default Abouts;

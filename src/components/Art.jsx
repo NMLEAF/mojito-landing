@@ -22,9 +22,9 @@ const Art = () => {
     maskTimeline
       .to(".will-fade", { opacity: 0, stagger: 0.2, ease: "power1.inOut" })
       .to(".masked-img", {
-        scale: 1.3,
+        scale: 1.4,
         maskPosition: "center",
-        maskSize: "400%",
+        // maskSize: "400%",
         duration: 1,
         ease: "power1.inOut ",
       })
